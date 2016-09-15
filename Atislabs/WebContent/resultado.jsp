@@ -49,7 +49,7 @@
 												 while( result.hasNext() ){
 												        Record record = result.next();
 												        %>     
-												        <p><%=record.get("id").asString()%><br></p>
+												        <p><%=record.get("DOC").asString()+" | "+record.get("pessoa").asString()+" | "+record.get("nProcesso").asString()+" | "+record.get("tipos").asString()%><br></p>
 		
 									<%
 												}
