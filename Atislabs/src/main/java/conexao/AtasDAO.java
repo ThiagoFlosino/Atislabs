@@ -8,7 +8,7 @@ import org.neo4j.driver.v1.StatementResult;
 
 public class AtasDAO {
 	
-	public StatementResult executeQuery(String query){
+	public StatementResult buscar(String query){
 		if(query.equals("") || query == null){
 			return null;
 		}
